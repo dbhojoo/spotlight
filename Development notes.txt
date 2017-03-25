@@ -1,0 +1,6 @@
+-- TESTING HIERARCHY
+
+* always required Pull Request review and DEVELOP testing -- MASTER 
+	* always required Pull Request review and needs to be audited against MASTER-- DEVELOP
+		* as required but Pull Request is needed before merging to DEVELOP -- PRODUCT
+			* github standards -- LOCAL TESTING
