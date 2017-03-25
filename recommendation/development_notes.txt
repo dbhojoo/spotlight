@@ -1,0 +1,9 @@
+25/03/2017
+
+Creating a recommendation engine to find event-attendees (read -- customers) that would have similar preferences. A number of models will be reviewed and added to this development branch.
+
+- Rating Cluster model (proximity)
+- Attribute Expansion (binary)
+- Random Forest (decision path)
+- Regression (probabilty likelihoods)
+- k-nearest Neighbours
