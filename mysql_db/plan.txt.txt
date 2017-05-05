@@ -1,0 +1,26 @@
+Core tables are necessary for production to run and have a service.
+These need to be simple, secure and lightweight - uptime is paramount.
+
+CORE Tables
+events
+users
+activities
+purchases
+recommendations
+
+--where does this sit?
+preferences 
+bank_details
+
+
+DENORMALISED
+users_purchases
+users_events
+users_recommendations_purchases
+
+What to confirm?
+
+What does the front-end need to run? What can we collect?
+
+Security set-up? Facebook API?
+
