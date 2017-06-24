@@ -7,37 +7,41 @@
 
 people = {
 
-	'Lisa Rose':
+	'Lisa':
 		{'Heavy Metal': 2.5, 'Hip Hop': 3.5, 'Dance': 3.0, 'Trance': 3.5, 'Pop': 2.5, 'Jazz': 3.0}
-	,'Gene Seymour':
+	,'Genesis':
 		{'Heavy Metal': 1.0, 'Hip Hop': 5.0, 'Dance': 2.0, 'Trance': 1.5, 'Pop': 3.5, 'Jazz': 3.5}
-	,'Michael Phillips':
-		{'Heavy Metal': 5.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Trance': 3.5, 'Pop': 0.0, 'Jazz': 3.0}
-	,'Claudia Puig':
+	,'Michael':
+		{'Heavy Metal': 5.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Pop': 0.0, 'Jazz': 3.0}
+	,'Claudia':
 		{'Heavy Metal': 1.5, 'Hip Hop': 1.5, 'Trance': 1.5, 'Pop': 1.5, 'Jazz': 1.0}
-	,'Mick LaSalle':
+	,'Mick':
 		{'Heavy Metal': 2.0, 'Hip Hop': 3.0, 'Dance': 2.0, 'Trance': 2.5, 'Pop': 1.5, 'Jazz': 2.0}
-	,'Jack Matthews':
-		{'Heavy Metal': 1.5, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 3.5, 'Pop': 4.5, 'Jazz': 0.0}
+	,'Jack':
+		{'Heavy Metal': 1.5, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 3.5, 'Pop': 4.5}
 	,'Toby':
 		{'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
-	,'Mark Filge':
-		{'Heavy Metal': 2.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Trance': 0.5, 'Pop': 0.0, 'Jazz': 0.0}
-	,'Gene Seymour':
+	,'Mark':
+		{'Hip Hop': 0.0, 'Dance': 0.0, 'Trance': 0.5, 'Pop': 0.0, 'Jazz': 0.0}
+	,'Gene':
 		{'Heavy Metal': 0.0, 'Hip Hop': 3.0, 'Dance': 0.0, 'Trance': 0.5, 'Pop': 2.5, 'Jazz': 4.5}
-	,'Michael Johnson':
+	,'Michael':
 		{'Heavy Metal': 3.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Trance': 3.5, 'Pop': 0.0, 'Jazz': 3.0}
-	,'Sam Jones':
+	,'Sam':
 		{'Heavy Metal': 1.5, 'Hip Hop': 1.5, 'Dance': 1.0, 'Trance': 1.5, 'Pop': 1.5, 'Jazz': 1.0}
-	,'Demis Bhojoo':
+	,'Demis':
 		{'Hip Hop': 4.5, 'Dance': 2.0, 'Trance': 1.0, 'Pop': 2.5, 'Jazz': 4.0}
-	,'Jack Smith':
+	,'Jack':
 		{'Heavy Metal': 3.5, 'Dance': 4.0, 'Trance': 3.5, 'Pop': 4.5, 'Jazz': 0.0}
-	,'Fuud Smithwen':
+	,'Fuud':
 		{'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
-	
+	,'Francis':
+		{'Hip Hop': 4.0, 'Dance': 2.0}
+	,'Julia':
+		{'Hip Hop': 1.0, 'Dance': 1.0}
 	}
 
+# main functions for creating the people correlation coefficients, recommendatons and transformations
 
 from math import sqrt
 
@@ -98,7 +102,7 @@ def sim_pearson(prefs,p1,p2):
 #returns the best match for the person from the perfs dictionary
 #number of results and similarity functional are optional parameters
 
-def topMatches(prefs,person,n = 5, similarity=sim_pearson):
+def topMatch(prefs,person,n = 3, similarity=sim_pearson):
 	scores = [(similarity(prefs,person,other),other)
 		for other in prefs if other != person]
 		
