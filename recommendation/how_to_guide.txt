@@ -3,22 +3,22 @@ how to run the reco_engine
 
 1. from recommendations import people
 
-2. from recommendations
+2. import recommendations
 
 3. reload(recommendations)
 
 -- for preferences distances
-4a. recommendations.sim_pearson(recommendations.people,'Toby','Demis Bhojoo')
+4a. recommendations.sim_pearson(recommendations.people,'Toby','Demis')
 
 -- for preferences cluster
-4b. recommendations.sim_distance(recommendations.people,'Toby','Demis Bhojoo')
+4b. recommendations.sim_distance(recommendations.people,'Toby','Demis')
 
 -- for retrieving people that are like you
-5. recommendations.topMatch(recommendations.people,'Demis Bhojoo')
+5. recommendations.topMatch(recommendations.people,'Demis')
 
 -- making a recommendation based on themes that are not available but using existing
 themes
-6. recommendations.getRec(recommendations.people,'Demis Bhojoo')
+6. recommendations.getRec(recommendations.people,'Demis')
 
 --transform the themes as the main grouping dependent
 7. themes = recommendations.transformPrefs(recommendations.people)

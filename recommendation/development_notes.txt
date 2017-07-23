@@ -7,3 +7,18 @@ Creating a recommendation engine to find event-attendees (read -- customers) tha
 - Random Forest (decision path)
 - Regression (probabilty likelihoods)
 - k-nearest Neighbours
+
+______________________________________________________
+______________________________________________________
+
+Thought process:
+
+1. Regular request process PHP/SQL to make csv files of individual preferences and runs
+
+2. This is downloaded to a queue process for Python script
+
+3. Python reader converts the individuals preferences into a nested dictionary
+
+4. Recommendation script runs and creates new outcomes 
+
+5. New csv of results can be created and presented
