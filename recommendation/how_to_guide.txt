@@ -24,4 +24,4 @@ themes
 7. themes = recommendations.transformPrefs(recommendations.people)
 
 --this uses the above recommendation method for cluster likelihood
-8. recommendations.topMatches(recommendations.people,'Dance')
+8. recommendations.topMatch(recommendations.people,'Dance')

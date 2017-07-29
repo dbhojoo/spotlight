@@ -6,30 +6,31 @@
 # A dictionary of event attendees and their ratings for preferred event type
 #all ratings are out of 5 -- this can be used as the main questionnaire for set-up
 
+#xml reader
 
 
 
 
 
 ## old code to recycle if needed
-# people = {
-	# '1':
-		# {'Heavy Metal': 2.5, 'Hip Hop': 3.5, 'Dance': 3.0, 'Trance': 3.5, 'Pop': 2.5, 'Jazz': 3.0}
-	# ,'2':
-		# {'Heavy Metal': 1.0, 'Hip Hop': 5.0, 'Dance': 2.0, 'Trance': 1.5, 'Pop': 3.5, 'Jazz': 3.5}
-	# ,'3':
-		# {'Heavy Metal': 5.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Pop': 0.0, 'Jazz': 3.0}
-	# ,'4':
-		# {'Heavy Metal': 1.5, 'Hip Hop': 1.5, 'Trance': 1.5, 'Pop': 1.5, 'Jazz': 1.0}
-	# ,'5':
-		# {'Heavy Metal': 2.0, 'Hip Hop': 3.0, 'Dance': 2.0, 'Trance': 2.5, 'Pop': 1.5, 'Jazz': 2.0}
-	# ,'6':
-		# {'Heavy Metal': 1.5, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 3.5, 'Pop': 4.5}
-	# ,'7':
-		# {'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
-	# ,'8':
-		# {'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
-	# }
+people = {
+	'1':
+		{'Heavy Metal': 2.5, 'Hip Hop': 3.5, 'Dance': 3.0, 'Trance': 3.5, 'Pop': 2.5, 'Jazz': 3.0}
+	,'2':
+		{'Heavy Metal': 1.0, 'Hip Hop': 5.0, 'Dance': 2.0, 'Trance': 1.5, 'Pop': 3.5, 'Jazz': 3.5}
+	,'3':
+		{'Heavy Metal': 5.0, 'Hip Hop': 0.0, 'Dance': 0.0, 'Pop': 0.0, 'Jazz': 3.0}
+	,'4':
+		{'Heavy Metal': 1.5, 'Hip Hop': 1.5, 'Trance': 1.5, 'Pop': 1.5, 'Jazz': 1.0}
+	,'5':
+		{'Heavy Metal': 2.0, 'Hip Hop': 3.0, 'Dance': 2.0, 'Trance': 2.5, 'Pop': 1.5, 'Jazz': 2.0}
+	,'6':
+		{'Heavy Metal': 1.5, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 3.5, 'Pop': 4.5}
+	,'7':
+		{'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
+	,'8':
+		{'Heavy Metal': 0.0, 'Hip Hop': 4.5, 'Dance': 4.0, 'Trance': 1.5, 'Pop': 2.5, 'Jazz': 4.0}
+	}
 
 # main functions for creating the people correlation coefficients, recommendatons and transformations
 
