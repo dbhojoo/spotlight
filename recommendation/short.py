@@ -5,6 +5,8 @@
 # A dictionary of event attendees and their ratings for preferred event type
 #all ratings are out of 5 -- this can be used as the main questionnaire for set-up
 
+# THIS IS GIVES YOU THE GAPS AT THE END FOR PEOPLE OF SIMILAR INTEREST WHERE PREFERENCES HAVE NOT BEEN GIVEN
+
 #csv reader
 import csv
 
