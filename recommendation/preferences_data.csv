@@ -1,6 +1,226 @@
 user_id,event_type,rating
-3,Dance,5
+1,Dance,5
+1,Hip Hop,5
+1,Electronica,3
+1,Rock,2
+1,Drum and Bass,1
+2,Dance,3
+2,Hip Hop,1
+2,Electronica,5
+2,Rock,4
+2,Drum and Bass,2
+3,Dance,3
 3,Hip Hop,5
-3,Electronica,3
-3,Rock,2
-3,Drum and Bass,1
+3,Rock,3
+3,Drum and Bass,5
+4,Dance,5
+4,Hip Hop,1
+4,Electronica,5
+4,Rock,5
+4,Drum and Bass,5
+5,Dance,3
+5,Electronica,4
+5,Rock,1
+5,Drum and Bass,2
+6,Dance,3
+6,Hip Hop,1
+6,Electronica,1
+6,Rock,4
+6,Drum and Bass,3
+7,Dance,4
+7,Hip Hop,3
+7,Electronica,3
+7,Rock,3
+7,Drum and Bass,2
+8,Dance,1
+8,Hip Hop,4
+8,Electronica,3
+8,Rock,3
+8,Drum and Bass,1
+9,Dance,5
+9,Hip Hop,4
+9,Electronica,2
+9,Rock,1
+9,Drum and Bass,2
+10,Dance,3
+10,Hip Hop,3
+10,Electronica,4
+10,Rock,1
+10,Drum and Bass,3
+11,Dance,1
+11,Hip Hop,1
+11,Electronica,1
+11,Rock,4
+11,Drum and Bass,2
+12,Dance,3
+12,Hip Hop,4
+12,Rock,2
+12,Drum and Bass,4
+13,Dance,1
+13,Hip Hop,3
+13,Electronica,2
+13,Rock,1
+13,Drum and Bass,4
+14,Hip Hop,1
+14,Electronica,2
+14,Rock,3
+14,Drum and Bass,1
+15,Hip Hop,1
+15,Electronica,3
+15,Rock,3
+15,Drum and Bass,3
+16,Dance,2
+16,Electronica,1
+16,Rock,4
+16,Drum and Bass,1
+17,Dance,4
+17,Hip Hop,2
+17,Electronica,5
+17,Rock,2
+17,Drum and Bass,4
+18,Dance,5
+18,Hip Hop,5
+18,Electronica,1
+18,Rock,4
+18,Drum and Bass,3
+19,Dance,1
+19,Hip Hop,1
+19,Electronica,2
+19,Rock,4
+19,Drum and Bass,5
+20,Hip Hop,2
+20,Electronica,3
+20,Rock,4
+20,Drum and Bass,2
+21,Dance,1
+21,Hip Hop,5
+21,Electronica,4
+21,Rock,1
+21,Drum and Bass,3
+22,Dance,4
+22,Hip Hop,5
+22,Electronica,1
+22,Rock,3
+22,Drum and Bass,1
+23,Dance,2
+23,Hip Hop,2
+23,Electronica,2
+23,Rock,4
+23,Drum and Bass,1
+24,Dance,3
+24,Hip Hop,3
+24,Electronica,5
+24,Rock,2
+24,Drum and Bass,3
+25,Dance,3
+25,Hip Hop,1
+25,Electronica,3
+25,Rock,1
+26,Dance,2
+26,Hip Hop,4
+26,Electronica,4
+26,Rock,2
+26,Drum and Bass,4
+27,Dance,4
+27,Electronica,4
+27,Rock,1
+27,Drum and Bass,5
+28,Dance,2
+28,Hip Hop,3
+28,Drum and Bass,4
+29,Dance,4
+29,Hip Hop,4
+29,Electronica,4
+29,Rock,5
+29,Drum and Bass,4
+30,Dance,1
+30,Hip Hop,4
+30,Electronica,5
+30,Rock,1
+30,Drum and Bass,2
+31,Dance,1
+31,Hip Hop,4
+31,Electronica,5
+31,Rock,2
+31,Drum and Bass,1
+32,Hip Hop,1
+32,Electronica,1
+32,Rock,3
+32,Drum and Bass,1
+33,Dance,3
+33,Hip Hop,2
+33,Rock,3
+33,Drum and Bass,1
+34,Dance,1
+34,Hip Hop,4
+34,Electronica,2
+34,Rock,4
+34,Drum and Bass,4
+35,Dance,4
+35,Hip Hop,3
+35,Rock,3
+35,Drum and Bass,1
+36,Hip Hop,3
+36,Electronica,4
+36,Rock,3
+36,Drum and Bass,1
+37,Dance,5
+37,Hip Hop,3
+37,Electronica,5
+37,Rock,3
+37,Drum and Bass,1
+38,Dance,2
+38,Hip Hop,5
+38,Electronica,2
+38,Rock,3
+39,Dance,3
+39,Hip Hop,1
+39,Electronica,4
+39,Rock,3
+39,Drum and Bass,2
+40,Dance,5
+40,Hip Hop,2
+40,Electronica,4
+40,Rock,1
+40,Drum and Bass,2
+41,Dance,5
+41,Electronica,2
+41,Rock,2
+41,Drum and Bass,5
+42,Dance,2
+42,Hip Hop,1
+42,Electronica,1
+42,Rock,1
+42,Drum and Bass,3
+43,Dance,2
+43,Hip Hop,1
+43,Electronica,4
+43,Rock,3
+43,Drum and Bass,1
+44,Dance,4
+44,Hip Hop,4
+44,Rock,2
+45,Dance,4
+45,Hip Hop,4
+45,Electronica,1
+45,Rock,4
+45,Drum and Bass,5
+46,Dance,1
+46,Hip Hop,2
+46,Rock,1
+46,Drum and Bass,3
+47,Dance,2
+47,Hip Hop,1
+47,Electronica,3
+47,Rock,3
+47,Drum and Bass,4
+48,Dance,1
+48,Hip Hop,3
+48,Electronica,1
+48,Rock,2
+48,Drum and Bass,5
+49,Dance,1
+49,Hip Hop,4
+49,Electronica,4
+49,Rock,3
+49,Drum and Bass,1
