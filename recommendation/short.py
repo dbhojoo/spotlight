@@ -131,3 +131,9 @@ def trans_prefs(prefs):
 	return result
 	
 # this is the end but additional categorisation and segmentation is needed
+
+preferences = trans_prefs(people)
+
+theme_type = raw_input("Give name: ")
+
+print get_rec(preferences,theme_type)
