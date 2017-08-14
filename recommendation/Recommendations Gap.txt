@@ -1,0 +1,17 @@
+What?
+
+Its a correlation-based preferences set-up where similar preferences across people are used to understand what they might like.
+
+Based on your similarity, it will identify the gaps in possible interests.
+
+Why?
+
+Helps to profile people with limited starting data and enrich going forward -- feedback loop.
+
+Discovery of the platform and more use across the presentation of events.
+
+
+How?
+
+Just run the script and a theme will be asked: a list of people that have not selected their preferences will have a likely score based on other preferences.
+
