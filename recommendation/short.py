@@ -134,6 +134,6 @@ def trans_prefs(prefs):
 
 preferences = trans_prefs(people)
 
-theme_type = raw_input("Give name: ")
+theme_type = raw_input("Give theme name please: ")
 
 print get_rec(preferences,theme_type)
